@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.navegaçao{
+    max-width: 50%;
+    padding: 3%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+.title{
+    font-size: 35px;
+    color: #028502;
+    font-style: italic ;
+    text-decoration: underline;
+    font-family: 'Felix Titling';
+    margin-left: -22%;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+    
+}
+.subtitle{
+  font-size: 17px;
+  margin-left: -21%;
+  top: 2%;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s;
+  }
+nav ul{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+nav ul li a{
+padding: 5px;
+text-decoration: none;
+color: #fff;
+display: block;
+}
+nav  ul li:hover{
+    transition: 0.5s;
+    background-color: #664704;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 20px;
+}
+ nav ul li{
+    position: relative;
+    display: inline-block;
+ }
+  nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+  }
+  nav ul ul li{
+    display: block;
+  }
+  nav ul li:hover>ul{
+    display: inherit;
+  }
+  nav ul .capitulo ul{
+    top: 1.5cm;
+  }
+
+.coroa{
+  height: 1.91cm;
+  width: 1.97cm;
+}
+
+.container{
+display: flex;
+align-items: center;
+}
+
+.autor{
+  height: 9.98cm;
+  width: 9.98cm;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.resume{
+  max-width: 35%;
+  float: right;
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+.citacao{
+  background-color: rgb(90, 90, 90);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.6s;
+  text-shadow: 2px 2px 2px #000;
+}
+.citacao:hover{
+  background-color: rgb(90, 90, 90);
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.6s;
+  text-shadow: 2px 2px 2px #000;
+}
+b{
+  text-decoration: underline;
+}

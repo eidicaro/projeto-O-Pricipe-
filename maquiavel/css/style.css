@@ -6,7 +6,7 @@ body{
 
 .navegaçao{
     max-width: 50%;
-    padding: 3%;
+    padding: 10px;
     margin:  0 auto;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -62,7 +62,7 @@ nav  ul li:hover{
     background-color: #664704;
     border-color: #ffffff;
     color: #ffffff;
-    border-radius: 20px;
+    border-radius: 15px;
 }
  nav ul li{
     position: relative;
@@ -77,12 +77,13 @@ nav  ul li:hover{
   }
   nav ul ul li{
     display: block;
+    font-size: 12px;
   }
   nav ul li:hover>ul{
     display: inherit;
   }
   nav ul .capitulo ul{
-    top: 1.5cm;
+    top: 1.1cm;
   }
 
 .coroa{
@@ -99,25 +100,25 @@ align-items: center;
   height: 9.98cm;
   width: 9.98cm;
   margin-top: 8%;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 .resume{
   max-width: 35%;
   float: right;
-  margin-left: 20%;
+  margin-left: 7%;
   font-size: 20px;
 }
 
 .citacao{
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(124, 116, 92);
   padding: 20px;
   border-radius: 10px;
   transition: 0.6s;
   text-shadow: 2px 2px 2px #000;
 }
 .citacao:hover{
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(124, 116, 92);;
   padding: 30px;
   border-radius: 20px;
   transition: 0.6s;
@@ -125,4 +126,12 @@ align-items: center;
 }
 b{
   text-decoration: underline;
+}
+
+.contexto{
+  display: flex;
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 16px;
 }

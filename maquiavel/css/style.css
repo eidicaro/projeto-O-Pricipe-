@@ -1,20 +1,32 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    /* define o estilo da fonte */
     background-color: #000;
+    /* cor de fundo da página */
     color: #fff;
+    /* cor da fonte */
+}
+
+main{
+  font-size: 18px;
 }
 
 .navegaçao{
-    max-width: 50%;
     padding: 10px;
+    /* ajusta o tamanho interno do menu */
     margin:  0 auto;
+    /* zera a margem */
     display: flex;
+    /* deixa o display flexivel para os elementos */
     align-items: center;
+    /* alinha os elementos no centro no sentido vertical */
   }
 
   .principe{
     display: flex;
+        /* deixa o display flexivel para os elementos */
     align-items: center;
+    
   }
 
   .coroa{
@@ -23,7 +35,7 @@ body{
   }
 
 .title{
-    font-size: 35px;
+    font-size: 37px;
     color: #028502;
     font-style: italic ;
     text-decoration: underline;
@@ -33,10 +45,12 @@ body{
 .subtitle{
   font-size: 17px;
   margin-left: 3px;
+  margin-top: 3vh;
 }
 
 nav{
   display: flex;
+      /* deixa o display flexivel para os elementos */
   align-items: center;
   justify-content: space-between;
   transition: 0.5s;
@@ -93,6 +107,7 @@ nav  ul li:hover{
 
 .container{
 display: flex;
+    /* deixa o display flexivel para os elementos */
 align-items: center;
 justify-content: space-between;
 width: 100%;
@@ -143,8 +158,55 @@ b{
 
 .contexto{
   display: flex;
+      /* deixa o display flexivel para os elementos */
   max-width: 70%;
   margin-left: 15%;
   text-align: center;
-  font-size: 16px;
+}
+
+footer{
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+h2{
+  text-align: center;
+}
+
+.conceito_chave1{
+  display: flex;
+}
+.chave1{
+  max-width: 40vw;
+  background-color: #312f2b;
+  border-radius: 10px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding: 20px;
+  transition: 0.5s;
+}
+.chave1:hover{
+  padding: 27px;
+  transition: 0.5s;
+}
+
+
+.conceito_chave2{
+  display: flex;
+}
+.chave2{
+  max-width: 40vw;
+  background-color: #312f2b;
+  border-radius: 10px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding: 20px;
+  transition: 0.5s;
+}
+.chave2:hover{
+  padding: 27px;
+  transition: 0.5s;
 }

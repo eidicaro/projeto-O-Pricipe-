@@ -109,7 +109,7 @@ nav  ul li:hover{
 display: flex;
     /* deixa o display flexivel para os elementos */
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 width: 100%;
 }
 .container > img {
@@ -178,6 +178,7 @@ h2{
 
 .conceito_chave1{
   display: flex;
+  align-items: center;
 }
 .chave1{
   max-width: 40vw;
@@ -196,6 +197,7 @@ h2{
 
 .conceito_chave2{
   display: flex;
+  align-items: center;
 }
 .chave2{
   max-width: 40vw;

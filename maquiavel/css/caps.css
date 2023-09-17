@@ -7,6 +7,10 @@ body{
   /* cor da fonte */
 }
 
+main{
+  font-size: 17px;
+}
+
 .navegaçao{
   padding: 10px;
   /* ajusta o tamanho interno do menu */
@@ -101,40 +105,25 @@ nav ul .capitulo ul{
 }
 
 
-.container{
-display: flex;
-  /* deixa o display flexivel para os elementos */
-align-items: center;
-justify-content: space-between;
-width: 100%;
-}
-.container > img {
-width: 25%;
-height: 100%;
-}
-
-
 .citacao{
-background-color: rgb(124, 116, 92);
-padding: 20px;
-border-radius: 10px;
-transition: 0.6s;
-text-shadow: 2px 2px 2px #000;
-max-width: 50%;
-margin-left: 15vW;
+  background-color: rgb(124, 116, 92);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.6s;
+  text-shadow: 2px 2px 2px #000;
+  max-width: 30%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
 }
 .citacao:hover{
-background-color: rgb(124, 116, 92);;
-padding: 30px;
-border-radius: 20px;
-transition: 0.6s;
-text-shadow: 2px 2px 2px #000;
+  background-color: rgb(124, 116, 92);;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.6s;
+  text-shadow: 2px 2px 2px #000;
 }
 
-.sinopse{
-max-width: 67vw;
-margin-left: 3vW;
-}
 
 b{
 text-decoration: underline;
@@ -148,3 +137,40 @@ footer{
   padding-bottom: 0;
 }
 
+.resumo_cap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resumo{
+  max-width: 60%;
+  font-size: 19px;
+}
+
+h2{
+  text-align: center;
+  color: #028502;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.prox_cap{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #664704;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.citacoes{
+  display: flex;
+  justify-content: space-around  ;
+}
+
+.avanco_caps{
+  display: flex;
+  justify-content: space-evenly;
+}

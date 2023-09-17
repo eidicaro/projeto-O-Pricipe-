@@ -132,9 +132,76 @@ footer{
 .a:hover{
   background-color: #664704;
   padding: 15px;
+  font-size: 18px;
   border-radius: 10px;
   transition: 0.6s;
 }
 
+.aplicacao{
+  margin: 10vw ;
+  transition: .4s;
+}
+.aplicacao:hover{
+  font-size: 19px;
+  transition: 0.4s;
+}
+
+.magno{
+  display: flex;
+  justify-content: space-around;
+}
+.sforza{
+  display: flex;
+  justify-content: space-around;
+}
+.luisxii{
+  display: flex;
+  justify-content: space-around;
+}
+.borgia{
+  display: flex;
+  justify-content: space-around;
+}
+.historia{
+  max-width: 60vw;
+  background-color: #4b0606;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.historia:hover{
+  padding: 25px;
+  transition: 0.5s;
+}
+
+.influencia{
+  margin: 10vw ;
+  transition: .4s;
+}
+.influencia:hover{
+  font-size: 19px;
+  transition: 0.4s;
+}
+
+.critica{
+  margin: 10vw ;
+  transition: .4s;
+  background-color: #4b0606;
+  border-radius: 15px;
+  padding: 30px;
+}
+.critica:hover{
+  font-size: 19px;
+  transition: 0.4s;
+}
+
+.personagens_img{
+  height: 7.78cm;
+  width: 5.85cm;
+  border-radius: 10px;
+  border: #664704;
+  border-style: solid;
+  box-shadow: 7px 7px 7px #302f2f;
+}
 
 

@@ -204,4 +204,13 @@ footer{
   box-shadow: 7px 7px 7px #302f2f;
 }
 
+.bibliografia{
+  text-decoration: underline;
+  color: #fff;
+  text-align: center;
+}
+.ref{
+  text-decoration: underline;
+  color: #fff;
+}
 
